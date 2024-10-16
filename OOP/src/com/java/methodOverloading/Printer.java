@@ -1,6 +1,11 @@
 package com.java.methodOverloading;
 
 public class Printer {
+	
+	//multiple methods with the same name(print) within a class(Printer) is called method overloading
+	//this is called method overloading(Virtual Polymorphism)(1:Many relations)
+	//but actually many functions are doing many things like (1:1 relationship)
+	//many print functions are there if you call print function with parameter it will call that particular print function 
 
 	void print(int a) {
 		System.out.println(a);
