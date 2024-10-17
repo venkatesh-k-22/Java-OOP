@@ -12,7 +12,7 @@ public class Insertions {
 		al.add(40);
 		al.add(50);
 		System.out.println(al); //[10, 20, 30, 40, 50]
-		//Insert the value at the particular list
+		//Insert the value at the particular Index
 		al.add(2,99);
 		System.out.println(al);//[10, 20, 99, 30, 40, 50] 99 added at index 2
 		//Insert Another arraylist 
